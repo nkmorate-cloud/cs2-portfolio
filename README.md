@@ -2,5 +2,5 @@
 ## Neidgel Kate Morate (⁠＾⁠∇⁠＾⁠)⁠ﾉ⁠♪
 ## 8 Dahlia
 
-link to my .py file - 
+link to my .py file - (hello.py)
 Distance activity submission -
