@@ -87,7 +87,8 @@ Selection Pattern: Which part uses multiple decision paths?
 [Score Checker Source Code](./q1/score_checker.py) 
 
 # 5
-| Test | Input | Purpose | Expected Output | Actual Output | Result | |---|---:|---|---|---|---| 
+| Test | Input | Purpose | Expected Output | Actual Output | Result | 
+|---|---:|---|---|---|---| 
 | 1 | -1 | Below minimum | | | | 
 | 2 | 0 | Minimum boundary | | | | 
 | 3 | 74 | Below Satisfactory boundary | | | | 
