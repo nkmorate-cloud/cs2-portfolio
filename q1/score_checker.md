@@ -1,3 +1,18 @@
+# Clean Decision Code Makeover: Student Score Checker 
+**Name:** NEIDGEL KATE MORATE
+**Section:** 8-Dahlia
+--- 
+## Activity Overview 
+In this activity, I improved a Student Score Checker program by applying proper coding standards and selection structures. 
+The program accepts a student score from 0 to 100 and determines the appropriate classification. 
+The classifications are: 
+| Score | Classification | 
+|---:|---| 
+| 90–100 | Outstanding | 
+| 0–74 | Needs Improvement | 
+Scores below 0 or above 100 are considered invalid. 
+--- 
+
 # 1
 Input: What information does the program need?  
 * The student's score (or numbers representing their score)
