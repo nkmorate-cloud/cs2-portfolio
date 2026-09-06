@@ -18,20 +18,36 @@ Selection Pattern: Which part uses multiple decision paths?
 * (elif score >= 90: ... elif score >= 80: ... else:) uses multiple decision paths
 
 # 2
-* START
-* INPUT score
-
-* IF score < 0 OR score > 100 THEN
-*    DISPLAY "Invalid score"
-* ELSE IF score >= 90 THEN
-*    DISPLAY "Outstanding"
-* ELSE IF score >= 80 THEN
-*    DISPLAY "Very Satisfactory"
-* ELSE IF score >= 75 THEN
-*    DISPLAY "Satisfactory"
-* ELSE
-*    DISPLAY "Needs Improvement"
-* END
+[ START ]
+           │
+           ▼
+     / INPUT score /
+           │
+           ▼
+     /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\
+    < score < 0 OR > 100?    > ─── Yes ───► [ DISPLAY "Invalid score" ]
+     \______________________/                       │
+           │ No                                     │
+           ▼                                        │
+     /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\                       │
+    <      score >= 90?      > ─── Yes ───► [ DISPLAY "Outstanding" ]
+     \______________________/                       │
+           │ No                                     │
+           ▼                                        │
+     /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\                       │
+    <      score >= 80?      > ─── Yes ───► [ DISPLAY "Very Satisfactory" ]
+     \______________________/                       │
+           │ No                                     │
+           ▼                                        │
+     /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\                       │
+    <      score >= 75?      > ─── Yes ───► [ DISPLAY "Satisfactory" ]
+     \______________________/                       │
+           │ No                                     │
+           ▼                                        │
+    [ DISPLAY "Needs Improvement" ]                 │
+           │                                        │
+           ▼                                        ▼
+           └───────────────────────────────────────►[ END ]
 
 
 # 3
