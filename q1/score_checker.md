@@ -1,3 +1,4 @@
+# 1
 Input: What information does the program need?  
 # The student's score (or numbers representing their score)
 
