@@ -84,7 +84,7 @@ Selection Pattern: Which part uses multiple decision paths?
 * END
 
 # 4
-[Score Checker Source Code](q1/score_checker.py) 
+[Score Checker Source Code](q1/score_checker.py).
 
 # 5
 | Test | Input | Purpose | Expected Output | Actual Output | Result | 
