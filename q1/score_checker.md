@@ -9,8 +9,10 @@ The classifications are:
 | Score | Classification | 
 |---:|---| 
 | 90–100 | Outstanding | 
+| 80–89 | Very satisfactory | 
+| 75-79 | Satisfactory | 
 | 0–74 | Needs Improvement | 
-Scores below 0 or above 100 are considered invalid. 
+| Scores below 0 or above 100 | considered invalid. |
 --- 
 
 # 1
