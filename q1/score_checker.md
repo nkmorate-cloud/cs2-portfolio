@@ -16,3 +16,7 @@ Selection Pattern: Which part uses a boundary condition?
 
 Selection Pattern: Which part uses multiple decision paths?
 * (elif score >= 90: ... elif score >= 80: ... else:) uses multiple decision paths
+
+# 2
+
+# 3
