@@ -82,3 +82,18 @@ Selection Pattern: Which part uses multiple decision paths?
 * ELSE
 *    DISPLAY "Needs Improvement"
 * END
+
+# 4
+[Score Checker Source Code](./q1/score_checker.py) 
+
+# 5
+| Test | Input | Purpose | Expected Output | Actual Output | Result | |---|---:|---|---|---|---| 
+| 1 | -1 | Below minimum | | | | 
+| 2 | 0 | Minimum boundary | | | | 
+| 3 | 74 | Below Satisfactory boundary | | | | 
+| 4 | 75 | Satisfactory boundary | | | | 
+| 5 | 80 | Very Satisfactory boundary | | | | 
+| 6 | 90 | Outstanding boundary | | | | 
+| 7 | 100 | Maximum boundary | | | | 
+| 8 | 101 | Above maximum | | | | 
+
