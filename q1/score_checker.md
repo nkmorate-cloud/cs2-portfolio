@@ -98,3 +98,21 @@ Selection Pattern: Which part uses multiple decision paths?
 | 7 | 100 | Maximum boundary | Outstanding | Outstanding | PASS | 
 | 8 | 101 | Above maximum | Invalid score | Invalid score | PASS | 
 
+---
+## Testing Reflection 
+### 1. Why is it important to test the values 0 and 100? 
+> They represent the minimum and maximum boundaries of a valid input.
+### 2. Why did you also test -1 and 101? 
+> They help test to see if it gives correct input for numbers outside the valid input boundary.
+### 3. Which test helped you understand boundary conditions the most? 
+> The tests with the output as "invalid score", it shows how the code treats numbers outside the valid input boundary.
+### 4. Did any of your tests initially fail? If yes, what did you change in your program? 
+> Yes, testing -1 failed. The program displayed both "Invalid Score" and "Needs Improvement" at the same time. I fixed it by putting "exit()" to exit the program without displaying the second print. 
+--- 
+# Reflection 
+### 1. How did selection structures make the program more useful? 
+> They allowed the program to process specific inputs. Without it, the system could not categorize invalid inputs. 
+### 2. How did proper comments and readable formatting improve your program? 
+> It helped organize the code and made it more easier to understand how it works. 
+### 3. Why is it useful to plan the program using a flowchart and pseudocode before writing the code? 
+> It helps avoid errors and plans out the code
