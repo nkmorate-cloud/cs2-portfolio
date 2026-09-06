@@ -90,11 +90,11 @@ Selection Pattern: Which part uses multiple decision paths?
 | Test | Input | Purpose | Expected Output | Actual Output | Result | 
 |---|---:|---|---|---|---| 
 | 1 | -1 | Below minimum | Invalid score | Invalid score | PASS | 
-| 2 | 0 | Minimum boundary | | | PASS | 
-| 3 | 74 | Below Satisfactory boundary | | | PASS | 
-| 4 | 75 | Satisfactory boundary | | | | 
-| 5 | 80 | Very Satisfactory boundary | | | PASS | 
-| 6 | 90 | Outstanding boundary | | | PASS | 
-| 7 | 100 | Maximum boundary | | | PASS | 
+| 2 | 0 | Minimum boundary | Needs Improvement | Needs Improvement | PASS | 
+| 3 | 74 | Below Satisfactory boundary | Needs Improvement | Needs Improvement | PASS | 
+| 4 | 75 | Satisfactory boundary | Satisfactory | Satisfactory | PASS | 
+| 5 | 80 | Very Satisfactory boundary | Very Satisfactory | Very Satisfactory | PASS | 
+| 6 | 90 | Outstanding boundary | Outstanding | Outstanding | PASS | 
+| 7 | 100 | Maximum boundary | Outstanding | Outstanding | PASS | 
 | 8 | 101 | Above maximum | Invalid score | Invalid score | PASS | 
 
