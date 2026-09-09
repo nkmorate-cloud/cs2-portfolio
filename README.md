@@ -11,3 +11,5 @@
 > This file will contain the source code with the proper documentation. - [Activity](q1/score_checker.py)
 
 > [workshop_validator.py](q1/workshop_validator.py)
+
+> )
