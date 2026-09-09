@@ -39,6 +39,65 @@ Complete the table below before writing your program.
 > The code must contain exactly 6 characters.  Anything else that's under or over the limit is invalid.
 --- 
 # Part B - Program Design 
+```
+START
+
+  // Input and validate Student Name
+  READ name
+  IF name is empty THEN
+    DISPLAY "Student name is required."
+    EXIT program
+  ENDIF
+
+  // Input and validate Age (Loop until a valid number between 11 and 18 is given)
+  WHILE true DO
+    READ age_input
+    IF age_input is not a valid number THEN
+      DISPLAY "Age must be a number."
+      CONTINUE loop
+    ENDIF
+    
+    CONVERT age_input to integer age
+    
+    IF age < 11 OR age > 18 THEN
+      DISPLAY "Age must be from 11 to 18."
+      CONTINUE loop
+    ELSE
+      BREAK loop // Age is valid, exit the loop
+    ENDIF
+  ENDWHILE
+
+  // Input and validate Grade Level
+  READ grade
+  IF grade < 7 OR grade > 12 THEN
+    DISPLAY "Invalid grade level."
+    EXIT program
+  ENDIF
+
+  // Input and validate Email
+  READ email
+  IF email does not contain "@" OR does not contain ".edu.ph" THEN
+    DISPLAY "Invalid format."
+    EXIT program
+  ENDIF
+
+  // Input and validate Registration Code
+  READ code
+  IF length of code is not equal to 6 THEN
+    DISPLAY "The registration code must contain exactly 6 characters."
+    EXIT program
+  ENDIF
+
+  // Display Registration Details
+  DISPLAY "REGISTRATION ACCEPTED"
+  DISPLAY "Student: " + name
+  DISPLAY "Age: " + age
+  DISPLAY "Grade Level: " + grade
+  DISPLAY "Email: " + email
+  DISPLAY "Registration Code: " + code
+```
+
+END
 # Part C - Program Implementation 
 ## Programming Language 
 > Python 
