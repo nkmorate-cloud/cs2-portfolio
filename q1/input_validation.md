@@ -48,11 +48,14 @@ Complete the table below before writing your program.
 --- 
 ## Validation Techniques Used 
 ### Presence Validation 
-Explain where you used presence validation. > Write your answer here. 
+Explain where you used presence validation. 
+> Write your answer here. 
 ### Data Type Validation 
-Explain where you used data type validation. > Write your answer here. 
+Explain where you used data type validation. 
+> Write your answer here. 
 ### Range Validation 
-Explain where you used range validation. > Write your answer here.
+Explain where you used range validation. 
+> Write your answer here.
 ### Acceptable Value Validation 
 Explain where you used acceptable value validation. 
 > Write your answer here. 
@@ -65,7 +68,8 @@ Explain the length rule you used.
 --- 
 # Part D - Testing 
 Test your program using both valid and invalid inputs. 
-| Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result | |---:|---|---|---|---|---| 
+| Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result | 
+|---:|---|---|---|---|---| 
 | 1 | All inputs valid | Normal case | | | | 
 | 2 | Blank student name | Presence | | | | 
 | 3 | Age = `fourteen` | Data type | | | | 
@@ -132,9 +136,14 @@ Write the actual output here.
 --- 
 # Reflection 
 Answer briefly. 
-### 1. Why should a program validate input before processing it? > Write your answer here. 
-### 2. What is the difference between input validation and output verification? > Write your answer here. 
-### 3. Which validation technique was easiest for you to implement? Why? > Write your answer here. 
-### 4. Which validation technique was most challenging? Why? > Write your answer here. 
-### 5. How did testing invalid inputs help you improve your program? > Write your answer here. 
+### 1. Why should a program validate input before processing it? 
+> Write your answer here. 
+### 2. What is the difference between input validation and output verification? 
+> Write your answer here. 
+### 3. Which validation technique was easiest for you to implement? Why? 
+> Write your answer here. 
+### 4. Which validation technique was most challenging? Why? 
+> Write your answer here. 
+### 5. How did testing invalid inputs help you improve your program? 
+> Write your answer here. 
 --- 
