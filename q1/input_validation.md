@@ -161,22 +161,22 @@ if valid:
 ## Validation Techniques Used 
 ### Presence Validation 
 Explain where you used presence validation. 
-> Write your answer here. 
+> Used on the name input to check if the input was left empty. 
 ### Data Type Validation 
 Explain where you used data type validation. 
-> Write your answer here. 
+> Used on the age and grade inputs inside a try-except block
 ### Range Validation 
 Explain where you used range validation. 
-> Write your answer here.
+> Used on the age input to restrict values between 11 and 18, and the grade input to restrict levels that are not between 7 and 12.
 ### Acceptable Value Validation 
 Explain where you used acceptable value validation. 
-> Write your answer here. 
+> Used on the email input to ensure it contains the specific, acceptable characters
 ### Pattern Validation 
 Explain the simple pattern rule you used. 
-> Write your answer here. 
+> Used on the email input by checking for the "@" symbol 
 ### Length Validation 
 Explain the length rule you used. 
-> Write your answer here. 
+> Used on the code input by using the len(code) != 6 condition
 --- 
 # Part D - Testing 
 Test your program using both valid and invalid inputs. 
