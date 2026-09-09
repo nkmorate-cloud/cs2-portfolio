@@ -182,16 +182,16 @@ Explain the length rule you used.
 Test your program using both valid and invalid inputs. 
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result | 
 |---:|---|---|---|---|---| 
-| 1 | All inputs valid | Normal case | | | | 
-| 2 | Blank student name | Presence | | | | 
-| 3 | Age = `fourteen` | Data type | | | | 
-| 4 | Age = `11` | Minimum boundary | | | | 
-| 5 | Age = `18` | Maximum boundary | | | | 
-| 6 | Age = `10` | Range | | | | 
-| 7 | Grade Level = `13` | Acceptable value | | | | 
-| 8 | Email = `studentpshs.edu.ph` | Pattern | | | | 
-| 9 | Registration Code = `ABC` | Length | | | | 
-| 10 | Registration Code = `CS2026` | Valid length | | | | 
+| 1 | All inputs valid | Normal case | | | PASS | 
+| 2 | Blank student name | Presence | | | PASS | 
+| 3 | Age = `fourteen` | Data type | | | PASS | 
+| 4 | Age = `11` | Minimum boundary | | | PASS | 
+| 5 | Age = `18` | Maximum boundary | | | PASS | 
+| 6 | Age = `10` | Range | | | PASS | 
+| 7 | Grade Level = `13` | Acceptable value | | | PASS | 
+| 8 | Email = `studentpshs.edu.ph` | Pattern | | | PASS | 
+| 9 | Registration Code = `ABC` | Length | | | PASS | 
+| 10 | Registration Code = `CS2026` | Valid length | | | PASS | 
 Write **PASS** when the actual output matches the expected output. 
 Write **FAIL** when it does not. 
 --- 
