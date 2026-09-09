@@ -22,11 +22,11 @@ Complete the table below before writing your program.
 |---|---|---|---|---|---| 
 | Student Name | String | Presence | "" | Must not be empty or blank | Student name is required. | 
 | Age | Integer | Data Type + Range | "twelve", 24 | Must be an integer AND between 11 and 18 | "Age must be a number.", "Age must be from 11 to 18." | 
-| Grade Level | Integer | Acceptable value | | | | 
-| Email Address | | Pattern | | | |
-| Registration Code | | Length | | | | 
+| Grade Level | Integer | Acceptable value | 6, 13 | Must belong to the list: 7, 8, 9, 10, 11, 12 | "Invalid grade level." | 
+| Email Address | String | Pattern | student.pshs.edu.ph | Must contain ".edu.ph" AND the @ character | Invalid email format. |
+| Registration Code | CodeString | Length | A123 | Length of the string must equal exactly 6 | "The registration code must contain exactly 6 characters." | 
 --- 
-## Validation Questions 
+## Validation Questions
 ### 1. Why should the student name not be blank? 
 > Write your answer here. 
 ### 2. Why should age be checked for both data type and range? 
