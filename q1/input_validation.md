@@ -20,11 +20,11 @@ The program checks whether user input satisfies specific requirements before acc
 Complete the table below before writing your program. 
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message | 
 |---|---|---|---|---|---| 
-| Student Name | | | | | | 
-| Age | | | | | | 
-| Grade Level | | | | | | 
-| Email Address | | | | | | 
-| Registration Code | | | | | | 
+| Student Name | String | Presence | "" | Must not be empty or blank | Student name is required. | 
+| Age | Integer | Data Type + Range | "twelve", 24 | Must be an integer AND between 11 and 18 | "Age must be a number.", "Age must be from 11 to 18." | 
+| Grade Level | Integer | Acceptable value | | | | 
+| Email Address | | Pattern | | | |
+| Registration Code | | Length | | | | 
 --- 
 ## Validation Questions 
 ### 1. Why should the student name not be blank? 
