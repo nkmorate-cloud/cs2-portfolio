@@ -9,3 +9,5 @@
 > This file will contain the answers for Parts 1 - 5. - [Activity](q1/score_checker.md)
 
 > This file will contain the source code with the proper documentation. - [Activity](q1/score_checker.py)
+
+> [workshop_validator.py](q1/workshop_validator.py)
