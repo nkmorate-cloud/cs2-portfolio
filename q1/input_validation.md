@@ -95,9 +95,10 @@ START
   DISPLAY "Grade Level: " + grade
   DISPLAY "Email: " + email
   DISPLAY "Registration Code: " + code
-```
 
 END
+```
+
 # Part C - Program Implementation 
 ## Programming Language 
 > Python 
