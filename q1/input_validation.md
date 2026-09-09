@@ -1,7 +1,10 @@
 # Input Validation and Output Verification 
 **Activity:** PSHS Workshop Registration Validator 
-**Name:** Your Name 
-**Section:** Your Section 
+
+**Name:** NEIDGEL KATE MORATE
+
+**Section:** 8-Dahlia 
+
 **Quarter:** 1 
 --- 
 ## Activity Overview 
