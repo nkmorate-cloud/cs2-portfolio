@@ -249,13 +249,13 @@ Write the actual output here.
 # Reflection 
 Answer briefly. 
 ### 1. Why should a program validate input before processing it? 
-> Write your answer here. 
+> Input validation prevents invalid answers and errors by making sure the incoming data is in the correct format. 
 ### 2. What is the difference between input validation and output verification? 
-> Write your answer here. 
+> Input validation checks data before it enters the system to correctly process. Output verification checks the data after processing to ensure the program's final results are accurate. 
 ### 3. Which validation technique was easiest for you to implement? Why? 
-> Write your answer here. 
+> For me, checking if the input for the name was the easiest because it only requires an if statement to make sure the student actually inputted something 
 ### 4. Which validation technique was most challenging? Why? 
-> Write your answer here. 
+> For me, specific format restrictions (like validating an email or phone number) was challenging because it required handling multiple possible conditions and making sure it was a valid input.
 ### 5. How did testing invalid inputs help you improve your program? 
-> Write your answer here. 
+> It helped me find out potential errors in the program to revise and improve my code.
 --- 
