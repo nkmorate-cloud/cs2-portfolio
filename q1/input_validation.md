@@ -46,7 +46,7 @@ Complete the table below before writing your program.
 [workshop_validator.py](workshop_validator.py) 
 ## Final Code 
 ```python 
-# name = input("Enter student name: ")
+name = input("Enter student name: ")
 
 valid = True
 error = ""
