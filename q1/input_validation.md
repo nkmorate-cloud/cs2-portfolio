@@ -28,15 +28,15 @@ Complete the table below before writing your program.
 --- 
 ## Validation Questions
 ### 1. Why should the student name not be blank? 
-> Write your answer here. 
+> A blank name makes it impossible to identify who the student is. 
 ### 2. Why should age be checked for both data type and range? 
-> Write your answer here. 
+> Checking the data type prevents the program from crashing when converting text like "fourteen" into a number. Checking the range ensures valid age inputs.
 ### 3. Why should grade level only accept specific values? 
-> Write your answer here. 
+> This highschool only has grade levels 7-12. Only accepting these specific values blocks invalid responses. 
 ### 4. What format requirements did you use for the email address? 
-> Write your answer here. 
+> A simple string pattern check requiring the input to contain ".edu.ph" and at least one @ character. 
 ### 5. What length requirement did you use for the registration code? 
-> Write your answer here. 
+> The code must contain exactly 6 characters.  Anything else that's under or over the limit is invalid.
 --- 
 # Part B - Program Design 
 # Part C - Program Implementation 
