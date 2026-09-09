@@ -182,16 +182,16 @@ Explain the length rule you used.
 Test your program using both valid and invalid inputs. 
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result | 
 |---:|---|---|---|---|---| 
-| 1 | All inputs valid | Normal case | | | PASS | 
-| 2 | Blank student name | Presence | | | PASS | 
-| 3 | Age = `fourteen` | Data type | | | PASS | 
-| 4 | Age = `11` | Minimum boundary | | | PASS | 
-| 5 | Age = `18` | Maximum boundary | | | PASS | 
-| 6 | Age = `10` | Range | | | PASS | 
-| 7 | Grade Level = `13` | Acceptable value | | | PASS | 
-| 8 | Email = `studentpshs.edu.ph` | Pattern | | | PASS | 
-| 9 | Registration Code = `ABC` | Length | | | PASS | 
-| 10 | Registration Code = `CS2026` | Valid length | | | PASS | 
+| 1 | All inputs valid | Normal case | "REGISTRATION ACCEPTED" | "REGISTRATION ACCEPTED" | PASS | 
+| 2 | Blank student name | Presence | "Student name is required." | "Student name is required." | PASS | 
+| 3 | Age = `fourteen` | Data type | "Age must be a number." | "Age must be a number." | PASS | 
+| 4 | Age = `11` | Minimum boundary | Valid input | Valid input | PASS | 
+| 5 | Age = `18` | Maximum boundary | Valid input | Valid input | PASS | 
+| 6 | Age = `10` | Range | "Invalid grade level." | "Invalid grade level." | PASS | 
+| 7 | Grade Level = `13` | Acceptable value | Valid input | Valid input | PASS | 
+| 8 | Email = `studentpshs.edu.ph` | Pattern | "Invalid format." | "Invalid format." | PASS | 
+| 9 | Registration Code = `ABC` | Length | "The registration code must contain exactly 6 characters." | "The registration code must contain exactly 6 characters." | PASS | 
+| 10 | Registration Code = `CS2026` | Valid length | Valid input | Valid input | PASS | 
 Write **PASS** when the actual output matches the expected output. 
 Write **FAIL** when it does not. 
 --- 
