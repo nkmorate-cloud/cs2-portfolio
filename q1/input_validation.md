@@ -200,15 +200,15 @@ Choose any **three tests** from Part D.
 ## Verification Test 1 
 **Input:** 
 ```text 
-Write the input here.
+`fourteen`
 ``` 
 **Expected Output:** 
 ```text 
-Write the expected output here. 
+"Age must be a number."
 ``` 
 **Actual Output:** 
 ```text 
-Write the actual output here. 
+"Age must be a number."
 ``` 
 **Result:** PASS / FAIL 
 **Explanation:** 
@@ -216,15 +216,15 @@ Write the actual output here.
 ## Verification Test 2 
 **Input:** 
 ```text 
-Write the input here. 
+`studentpshs.edu.ph`
 ``` 
 **Expected Output:** 
 ```text 
-Write the expected output here. 
+"Invalid format." 
 ``` 
 **Actual Output:** 
 ```text 
-Write the actual output here. 
+"Invalid format."
 ``` 
 **Result:** PASS / FAIL 
 **Explanation:** 
@@ -232,15 +232,15 @@ Write the actual output here.
 ## Verification Test 3 
 **Input:** 
 ```text 
-Write the input here. 
+`ABC`
 ``` 
 **Expected Output:** 
 ```text 
-Write the expected output here. 
+"The registration code must contain exactly 6 characters."
 ``` 
 **Actual Output:**
 ```text 
-Write the actual output here. 
+"The registration code must contain exactly 6 characters."
 ``` 
 **Result:** PASS / FAIL 
 **Explanation:** 
