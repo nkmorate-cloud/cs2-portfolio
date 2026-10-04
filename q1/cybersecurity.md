@@ -46,7 +46,8 @@ A proposed Club Registration System wants to collect the following information. 
 | Parent Bank Account | | | 
 --- 
 ## Privacy Question 
-Why is it safer to collect only information that the program actually needs? > Write your answer here. 
+Why is it safer to collect only information that the program actually needs? 
+> Write your answer here. 
 --- 
 # Part C - Security-Focused Validation Rules 
 Complete the table before writing your program. 
