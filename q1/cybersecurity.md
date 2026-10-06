@@ -40,10 +40,10 @@ A proposed Club Registration System wants to collect the following information. 
 | Club Choice | collect | | 
 | School Email | collect | | 
 | Attendance Status | collect | | 
-| Password | do not colle| | 
-| OTP |  | | 
-| Home Address | | |
-| Parent Bank Account | | | 
+| Password | do not collect | | 
+| OTP | do not collect | | 
+| Home Address | do not collect | |
+| Parent Bank Account | do not collect | | 
 ---- 
 # Privacy Question 
 Why is it safer to collect only information that the program actually needs? 
