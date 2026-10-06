@@ -35,15 +35,15 @@ Check or describe all that apply:
 A proposed Club Registration System wants to collect the following information. Determine whether each item is really necessary. 
 | Data | Collect / Do Not Collect | Reason | 
 |---|---|---| 
-| Student Name | collect | | 
-| Section | collect | | 
-| Club Choice | collect | | 
-| School Email | collect | | 
-| Attendance Status | collect | | 
-| Password | do not collect | | 
-| OTP | do not collect | | 
-| Home Address | do not collect | |
-| Parent Bank Account | do not collect | | 
+| Student Name | collect | necessary | 
+| Section | collect | necessary | 
+| Club Choice | collect | necessary | 
+| School Email | collect | necessary | 
+| Attendance Status | collect | necessary | 
+| Password | do not collect | not necessary | 
+| OTP | do not collect | not necessary | 
+| Home Address | do not collect | not necessary |
+| Parent Bank Account | do not collect | not necessary | 
 ---- 
 # Privacy Question 
 Why is it safer to collect only information that the program actually needs? 
