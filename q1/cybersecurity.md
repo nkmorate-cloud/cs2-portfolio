@@ -115,11 +115,16 @@ Use:
 - **FAIL** if it does not. 
 --- 
 # Reflection 
-### 1. What is one cybersecurity threat that can affect an application or user? > Write your answer here. 
-### 2. How can users reduce the risk of phishing or suspicious messages? > Write your answer here. 
-### 3. How can validation rules improve the security of user input? > Write your answer here. 
-### 4. Why should a program avoid collecting unnecessary personal information? > Write your answer here. 
-### 5. How did SG7's input validation concepts become security practices in SG8? > Write your answer here. 
+### 1. What is one cybersecurity threat that can affect an application or user?
+> Write your answer here. 
+### 2. How can users reduce the risk of phishing or suspicious messages?
+> Write your answer here. 
+### 3. How can validation rules improve the security of user input?
+> Write your answer here. 
+### 4. Why should a program avoid collecting unnecessary personal information?
+> Write your answer here. 
+### 5. How did SG7's input validation concepts become security practices in SG8? 
+> Write your answer here. 
 --- 
 # Files for This Activity 
 - [`secure_registration.py`](secure_registration.py) 
