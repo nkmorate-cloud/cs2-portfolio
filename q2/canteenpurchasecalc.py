@@ -13,7 +13,7 @@ def main():
     quantity = int(input("Enter the quantity purchased: "))
     payment = float(input("Enter the amount paid: "))
    
-    total_cost = total(price, quantity)
+    total = total(price, quantity)
     
     balance = change(payment, total)
     
