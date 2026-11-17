@@ -1,3 +1,3 @@
-# Loop through numbers using range
-for num in range(2, 21, 2):
-    print(num)
+# Loop numbers using range
+for teuh in range(2, 21, 2):
+    print(teuh)
