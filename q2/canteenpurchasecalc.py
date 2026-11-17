@@ -8,26 +8,6 @@ def change(payment, total):
     return payment - total
 
 
-def total(price, quantity):
-    """Calculates and returns the total purchase cost."""
-    return price * quantity
-
-
-def change(payment, total):
-    """Calculates and returns the amount of change or shortage."""
-    return payment - total
-
-
-def totalprice(price, quantity):
-    """Calculates and returns the total purchase cost."""
-    return price * quantity
-
-
-def totalchange(payment, total):
-    """Calculates and returns the amount of change or shortage."""
-    return payment - total
-
-
 def main():
   
     price = float(input("Enter the price of the item: "))
