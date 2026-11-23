@@ -17,3 +17,5 @@
 Second quarter stuff
 
 > [canteen purchase calculation](q2/canteenpurchasecalc.py)
+> [schoolbag.py](q2/schoolbag.py)
+> [traveldestination.py](q2/traveldestination.py)
